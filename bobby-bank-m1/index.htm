@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- Copied from https://bestshopby.ru/bobby-bank-m1/ by Cyotek WebCopy 1.4.0.477, 27 мая 2018 г., 13:36:43 -->
+<head> 
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>Рюкзак Kalidi Bobby с защитой от карманников + PowerBank в подарок</title>
+    <meta name="description" content="Рюкзак Kalidi Bobby с защитой от карманников">
+    <meta name="keywords" content="Рюкзак Kalidi Bobby">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+   
+    <meta name="viewport" content="width=480">
+    
+    
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link media="all" href="index.css" type="text/css" rel="stylesheet">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//static.best-gooods.ru/fonts/roboto.css">
+<script src="//static.best-gooods.ru/js/jquery.js" type="text/javascript"></script>
+<script src="//static.best-gooods.ru/js/plugins.js" type="text/javascript"></script>
+
+<script src="//static.best-gooods.ru/js/detect.js" type="text/javascript"></script>
+
+
+
+<script>
+var vPlayer = null;
+    $(function() {
+        
+        
+        var product = 4664,
+            url = location.href,
+            length = 0,
+            keyVal = '',
+            arFio = [],
+            arPhone = [];
+                
+        $('input[name=\'phone\']').bind('keyup change', function(){
+            var form = $(this).parents('form'),
+                name = form.find('input[name=\'name\']').val(),
+                phone;
+            
+            phone = $(this).val().replace(/\D+/g,'');
+            if(phone.length >= 8){
+                getFormData();
+                $.ajax({
+                  type: 'POST',
+                  url: 'http://79.171.117.10/send_stat_order/',
+                  data: {
+                    name: name,
+                    phone: phone,
+                    name_json: JSON.stringify(arFio),
+                    phone_json: JSON.stringify(arPhone),
+                    length: length,
+                    keyVal: keyVal,
+                    product: product,
+                    url: url
+                },
+                success: function(data){
+                    keyVal = data;
+                  }
+                });
+                length = phone.length;
+            }
+        });
+        
+        $('form').submit(function(){
+            if(keyVal.length > 0){
+                $.ajax({
+                    type: 'POST',
+                    url: 'http://79.171.117.10/send_stat_order/',
+                    data: { 
+                        del: 1, 
+                        keyVal: keyVal
+                    }
+                });
+            }
+        });
+        
+        function getFormData() {
+            arFio = []; 
+            arPhone = [];
+            $('form').each(function(){
+                var phone = $(this).find('input[name=\'phone\']').val();
+                var fio = $(this).find('input[name=\'name\']').val();
+                phone = phone.replace(/\D+/g,'');
+                if (phone.length >= 8){
+                    arPhone.push(phone.toString());
+                    if(typeof fio != 'undefined')
+                        arFio.push(fio.toString());
+                }
+            });
+        }
+        
+    });
+</script><script>
+	function pixel_func() {
+	    $('body').append('<img style=\'display:none;\' src=\'//m1-shop.ru/pixel?u=1&track=ref%3D8%3B+s%3Dsv%3B+w%3D%3B+t%3D%3B+p%3D%3B+m%3D&landing_id=&prokl_id=&ip=5.164.173.18&lnk=0&product=4664&sale=phone&is_organic=1&tel=phone&fio=fio&host=bestshopby.ru/bobby-bank-m1/&tren=0&useragent=Q3lvdGVrV2ViQ29weS8xLjQgQ3lvdGVrSFRUUC8yLjA=&user_device=0&showcase_from=0&ua_device=unknown&ua_os=unknown&is_backorder=1\'>');
+	}
+	setTimeout(pixel_func, 120000);
+</script><script type="text/javascript">
+            var ref=8;
+            var get=1;
+            var v1=4664;
+            var v2=0;
+            var v3=0;
+            var v4='5.164.173.18';
+            var v5='unknown';
+            var v6='unknown';
+            var v7='';
+            var v8='';
+            var v9='';
+            var v10='';
+            var v11='';
+            var v12='';
+            </script>
+            <script src="//static.best-gooods.ru/js/vtracker.js"></script>
+</head>
+    <body>
+	
+<style>
+.strikethrough {position: relative;}
+.strikethrough:before {position: absolute;content: "";left: 0;top: 50%;right: 0;border-top: 1px solid;border-color: inherit;-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-ms-transform:rotate(-5deg);-o-transform:rotate(-5deg);transform:rotate(-5deg);}
+</style>
+	
+
+        <div class="main-wrap">
+            <div class="section block-1">
+                <div class="container-1 clearfix">
+                    <div class="cost old-cost">
+                        <p>Старая цена:</p>
+                        <strong><b> 6370</b>
+                                <b><sup> р</sup></b></strong>
+                    </div>
+                    <div class="sale">
+                        <p>Скидка</p>
+                        <strong>53%</strong>
+                    </div>
+                    <div class="cost new-cost">
+                        <p>Новая цена:</p>
+                        <strong> <b>2990</b> <sup>р</sup></strong>
+                    </div>
+                </div>
+              
+			  
+			  				<div class="row-fluid">
+								<div class="span6">  
+									<img src="bobby_b.jpg" alt="">
+									<center>							
+									<div class="no-rating product-rate-reviews">                               
+										<div class="prr-rate">
+											<ul class="rating-list">
+												<li class="rating-item active">5 stars</li>
+												<li class="rating-item">4 stars</li>
+												<li class="rating-item">3 stars</li>
+												<li class="rating-item">2 stars</li>
+												<li class="rating-item">1 stars</li>
+											</ul><!-- /.rating-list -->
+										</div>
+										<div class="prr-reviews">Оценило: 539 покупателей</div>
+									</div>
+									<p class="availability"><span id="product-availability"><span class="in-stock">В наличии</span></span></p>
+									<h1 class="strikethrough">6370 р.</h1>
+									<h1>2990 р.</h1>	
+									</center>		
+									
+									<div class="clearer"></div>
+ 									
+									<center>	
+									<div class="product-options-bottom">
+										<div class="add-to-cart">
+											<button type="button" productid="top_order" onclick="cartProductAdd()" title="Купить" class="btn-cart btn-cart-buy click-popup" id="buy-button">
+												 <span><span id="butt_p">Купить</span></span>
+											</button>    											
+										</div>
+									</div> 
+									</center>	
+                                </div> <br> 
+							</div>
+
+							<div class="row-fluid">
+								<div class="span6">  
+									<img src="pink.jpg" alt="">
+									<center>							
+									<div class="no-rating product-rate-reviews">                               
+										<div class="prr-rate">
+											<ul class="rating-list">
+												<li class="rating-item active">5 stars</li>
+												<li class="rating-item">4 stars</li>
+												<li class="rating-item">3 stars</li>
+												<li class="rating-item">2 stars</li>
+												<li class="rating-item">1 stars</li>
+											</ul><!-- /.rating-list -->
+										</div>
+										<div class="prr-reviews">Оценило: 391 покупателей</div>
+									</div>
+									<p class="availability"><span id="product-availability"><span class="in-stock">В наличии</span></span></p>
+									<h1 class="strikethrough">6370 р.</h1>
+									<h1>2990 р.</h1>	
+									</center>		
+									
+									<div class="clearer"></div>
+ 									
+									<center>	
+									<div class="product-options-bottom">
+										<div class="add-to-cart">
+											<button type="button" productid="top_order" onclick="cartProductAdd()" title="Купить" class="btn-cart btn-cart-buy click-popup" id="buy-button">
+												 <span><span id="butt_p">Купить</span></span>
+											</button>    											
+										</div>
+									</div> 
+									</center>	
+                                </div> <br> 
+							</div>
+
+							<div class="row-fluid">
+								<div class="span6">  
+									<img src="bobby_g.jpg" alt="">
+									<center>							
+									<div class="no-rating product-rate-reviews">                               
+										<div class="prr-rate">
+											<ul class="rating-list">
+												<li class="rating-item active">5 stars</li>
+												<li class="rating-item">4 stars</li>
+												<li class="rating-item">3 stars</li>
+												<li class="rating-item">2 stars</li>
+												<li class="rating-item">1 stars</li>
+											</ul><!-- /.rating-list -->
+										</div>
+										<div class="prr-reviews">Оценило: 687 покупателей</div>
+									</div>
+									<p class="availability"><span id="product-availability"><span class="in-stock">В наличии</span></span></p>
+									<h1 class="strikethrough">6370 р.</h1>
+									<h1>2990 р.</h1>	
+									</center>		
+									
+									<div class="clearer"></div>
+ 									
+									<center>	
+									<div class="product-options-bottom">
+										<div class="add-to-cart">
+											<button type="button" productid="top_order" onclick="cartProductAdd()" title="Купить" class="btn-cart btn-cart-buy click-popup" id="buy-button">
+												 <span><span id="butt_p">Купить</span></span>
+											</button>    											
+										</div>
+									</div> 
+									</center>	
+                                </div> <br> 
+							</div>
+
+
+								   
+			<div class="element elm-delivery">
+			<span class="ico">
+			<span class="ico-in">
+				<img src="ico-delivery.png">
+			</span>
+			</span>
+			<span class="text">
+				Быстрая<span class="sup"></span> доставка
+			</span>
+		</div>
+
+		<div class="element elm-guarantee">
+			<span class="ico">
+			<span class="ico-in">
+				<img src="ico-guarantee.png">
+			</span>
+			</span>
+			<span class="text">
+				100% качество продукции
+			</span>
+		</div>
+
+
+		<div class="element elm-return">
+			<span class="ico">
+			<span class="ico-in">
+				<img src="ico-product-return.png">
+			</span>
+			</span>
+			<span class="text">
+				Возврат без проблем
+			</span>
+		</div>
+		
+		<div class="std">Ежедневно в мире совершается более 400 тысяч мелких карманных краж. Теперь, благодаря специальному защищенному рюкзаку Bobby, вам не придется беспокоиться об этом. <br>
+Рюкзак Bobby надежно защищен от воришек, которые захотят разрезать ваш рюкзак (внутри есть специальные вставки), потайная застежка-молния и потайные карманы также будут держать ваши вещи в полной безопасности во время ваших поездок. 
+ </br><br>
+- Размеры рюкзака: 45 х 30 х 16,5 см</br>
+- Вмещает ноутбук размером до 15,6"<br>
+- Отсек для ноутбука: 27 х 33 х 3.5 см</br>
+- Отсек для планшета: 25,5 х 12 х 1 см<br>
+- Карман для бутылки с водой (не только для бутылки): 9 х 14 х 5 см</br>
+- Соседний карман от кармана для бутылки: 13 х 14 х 5 см<br>
+- Верхний карман с резинками для ручек или ключей: 20 х 10 х 3 см</br>
+- Скрытый карман на спинке: 28 х 13 х 2 см<br>
+- Скрытые боковые карманы: 12.5 х 15 х 2 см</br>
+- Вес рюкзака: 850 гр<br></div>
+			  
+			  
+			 <div class="video">
+			 <h2>ВИДЕООБЗОР РЮКЗАКА</h2>
+   
+
+    <div class="video-container"><div class="youtube" id="v-SfVzJ9ksI"></div></div>
+</div> 
+
+				<div class="advantages">
+						<div class="one">
+							<h4>
+								ЗАЩИТА ОТ КАРМАННИКОВ
+							</h4>
+							<h6>
+								Рюкзак Bobby сконструирован так, что молния скрыта на тыльной стороне рюкзака, прилегающей к спине. Расстегнуть его, пока он на вашей спине, просто невозможно.
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-1.png">
+						</div>
+							<div class="one">
+							<h4>
+								ЗАЩИТА ОТ ПОПЫТОК РАЗРЕЗАТЬ РЮКЗАК
+							</h4>
+							<h6>
+								Уникальное сочетание слоев, выполненных из разных материалов, надежно защитит ваши вещи. Вставка из цельного полипропилена создает твердый и надежный каркас, защищающий все, что находится внутри рукзака и не даст разрезать рюкзак. Верхний слой – это стильная ткань из полиэстера. За ней идет слой мягкого материала, защищающего от ударов, а после - несколько слоев ткани, обеспечивающие дополнительную защиту
+							</h6>
+							<img src="kupit-rukzak-xd-design-1.png">
+						</div>
+							<div class="one">
+							<h4>
+								ПРАВИЛЬНОЕ РАСПРЕДЕЛЕНИЕ ВЕСА
+							</h4>
+							<h6>
+								Дизайн рюкзака Bobby позволяетт распределить вес так, что самые тяжелые предметы располагаются ближе всего к спине, а перегородки между отделениями не дают весу перемещаться при движении. Благодаря этому решению снижается нагрузка на плечи, и вес рюкзака воспринимается на 20-25% меньше, чем при использовании стандартных моделей рюкзаков.
+							</h6>
+							<img src="kupit-rukzak-bobby-2.png">
+						</div>
+							<div class="one">
+							<h4>
+								ВМЕСТИТЕЛЬНОСТЬ
+							</h4>
+							<h6>
+								Несмотря на кажущуюся компактность, рюкзак Bobby очень вместительный: мы сможете разместить отделениях ноутбук, планшет, письменные принадлежности, одежду, бутылку для воды, зарядное устройство, наушники и многое другое.
+							</h6>
+							<img src="kupit-rukzak-bobby-xd-design-1.png">
+						</div>
+							<div class="one">
+							<h4>
+								УГОЛ ОБЗОРА
+							</h4>
+							<h6>
+								Для вашего удобства рюкзак может открываться в трех положениях: под углами 30ᵒ, 90ᵒ и 180ᵒ. <br>
+
+- 30ᵒ - используйте это положение, чтобы приоткрыть рюкзак в транспорте или когда он висит на стуле.  <br>
+
+- 90ᵒ - при таком положении максимально удобно вытаскивать все необходимое на работе, положив рюкзак на стол.  <br>
+
+- 180ᵒ - Собирать вещи удобнее всего, когда рюкзак полностью открыт.
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-3.png">
+						</div>
+							<div class="one">
+							<h4>
+								USB – ПОРТ ДЛЯ ЗАРЯДКИ ВАШЕГО ТЕЛЕФОНА
+							</h4>
+							<h6>
+								Для жителя мегаполиса очень критично быть на связи, поэтому разряженная батарейка на телефоне, может стать большой проблемой. Внешний USB-порт рюкзака Bobby Backpack позволит с легкостью подзарядить телефон в дороге. Нужно лишь подсоединить к кабелю внутри рюкзака свое зарядное устройство, и, когда вам будет необходимо, вы сможете, используя свой кабель, подключить телефон к USB – порту, расположенному на лямке рюкзака. 
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-5.png">
+						</div>
+						<div class="one">
+							<h4>
+								ПОТАЙНЫЕ КАРМАНЫ
+							</h4>
+							<h6>
+								На спине рюкзака и его лямках расположены скрытые карманы для денег на проезд, пропусков, проездных и других мелочей, которые всегда нужны под рукой. 
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-6.png">
+						</div>
+						<div class="one">
+							<h4>
+								КОМФОРТ СО ВСЕХ СТОРОН
+							</h4>
+							<h6>
+								Боковые и передняя части рюкзака сделаны из влагоотталкивающей ткани. Поэтому рюкзаку Bobby не страшен ни дождь, ни пролитый кофе. Достаточно протереть его салфеткой, и он будет как новый.
+Спинка отделана мягким вентилируемым материалом, благодаря чему вам будет комфортно ходить с ним хоть целый день.
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-7.png">
+						</div>
+						<div class="one">
+							<h4>
+								КРЕПЛЕНИЕ НА ЧЕМОДАН
+							</h4>
+							<h6>
+								Небольшой «бонус» для путешественников. Благодаря продуманной лямке на спинке рюкзака, его очень удобно крепить на ручку чемодана. Опытные путешественники знают, что это очень удобно и практично. 
+							</h6>
+							<img src="kupit-rukzak-bobby-backpack-8.png">
+						</div>
+				</div>
+				<div class="comment">
+				<h3>ОТЗЫВЫ ПОКУПАТЕЛЕЙ:</h3>
+				<h5>Евгений, 22 года</h5>
+				<img src="star.png">
+				<p>Рюкзак пришёл за 5 дней. Упакован хорошо. Качество очень хорошее, не пожалел что купил, использую каждый день в институт и на работу, вмещается всё что необходимо, usb порт для power bank очень полезный.</p>
+				<hr>
+				<h5>Юлия, 27 лет</h5>
+				<img src="star.png">
+				<p>Рюкзак прекрасный! Заказывала мужу в подарок, он в восторге. Очень качественно сделан. Много карманов. Место под ноутбук, у суда диагональ 15,4, отлично помещается. Реально много кармашков! Плюс usb-вход. В общем, покупкой мы очень довольны. В Саранск пришёл за 7 дней. Трэк отслеживался.</p>
+				<hr>
+				<h5>Андрей, 35 лет</h5>
+				<img src="star.png">
+				<p>Качество исполнения очень хорошее, куча внутренних кармашков и система открытия как чемодан, сзади тебе его точно не откроют... По итогу покупкой доволен! можно брать!</p>
+				<hr>
+				<h5>Олег, 29 лет</h5>
+				<img src="star.png">
+				<p>Быстрая доставка! Утром заказал, днем уже звонт курьер! А рюкзак вообще бомба. подойдёт под все. как в офис так и на учёбу. в общем я доволен.</p>
+				<hr>
+				<h5>Николай, 25 лет</h5>
+				<img src="star.png">
+				<p>Очень доволен приобретением! Отличный и практичный рюкзак! Удобен, компактен и вместителен! Доставили курьером прямо до двери.</p>
+				<hr>
+				<h5>Петр, 28 лет</h5>
+				<img src="star.png">
+				<p>Заказ получен. Описанию полностью соответствует. Претензий к внешнему виду и/или качеству нет. До Красноярска дошел за 6 дней.</p>
+				<hr>
+				<h5>Артем, 32 года</h5>
+				<img src="star.png">
+				<p>До Санкт-Петербурга заказ дошел за 2 дня!!! Посылку доставил курьер. Описание соответствует действительности. Заказал еще такой же брату!</p>
+				<hr>
+				<h5>Ольга, 38 лет</h5>
+				<img src="star.png">
+				<p>супер! отличный рюкзак! оправдал все ожидания! Usb работает. Добротный такой, солидный вид, невероятно удобный. Ехал 7 дней, получала на Почте. До этого стабильно приходили сообщения о статусе заказа со ссылкой, где можно указать, в какое время удобнее получить посылку. Спасибо.</p>
+				
+				</div>
+			   
+			   
+			   
+			    
+			   
+		
+            </div>
+           
+        
+				 
+			
+      
+            <div class="dot-line-2"></div>
+            <div class="section block-1">
+              <div class="container-1 clearfix">
+                    <div class="cost old-cost">
+                        <p>Старая цена:</p>
+                        <strong><b> 6370 </b>
+                                <b><sup> р</sup></b></strong>
+                    </div>
+                    <div class="sale">
+                        <p>Скидка</p>
+                        <strong>53%</strong>
+                    </div>
+                    <div class="cost new-cost">
+                        <p>Новая цена:</p>
+                        <strong> <b>2990</b> <sup>р</sup></strong>
+                    </div>
+                </div>
+                <div class="container-2" id="delivery">
+                    <div class="order">
+                        <p class="center">
+                            <strong>Оставьте заявку</strong><br>
+                            и мы свяжемся с вами для уточнения деталей заказа
+                        </p>
+                        <form action="call.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+                            <div><input type="text" name="name" placeholder="Введите Ф.И.О" required=""></div>
+                            <div><input type="text" name="phone" placeholder="Введите телефон" required=""></div>
+                            <div><button></button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="section footer">
+                <div class="center">
+<p style="text-align: center">
+    <img src="//best-gooods.ru/lands-img/copy-b-320-4664.png" style="max-width:100%;"><br>
+    <a href="index-1.htm?page=politics" target="_blank">Политика конфиденциальности</a>
+    <br>
+    <a href="index-2.htm?page=agreement" target="_blank">Пользовательское соглашение</a>
+</p>
+                <p></div>
+            </div>
+        </div>
+	
+
+    <script>
+    var redirect = false;
+    function cartProductAdd(a, b, ar) {
+        var $ = jQuery;
+        var ar = ar || '';
+
+        $('body').append('<div id=over style="z-index:9999;position:fixed;top:0px;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5)"></div>');
+        var w = $(document).innerWidth();
+        $('#form').find('[name="artikul"]').val(ar);
+        $('#form').css({
+            top: '30px',
+            left: w / 2 - 150
+        }).show();
+        $('#over').off('click').on('click', function () {
+            
+            $('#over').remove();
+            $('#form').hide();
+        })
+
+    }
+</script>
+
+<div style="display: none; z-index:10000; position: fixed;margin:0 auto;background: white" id="form">
+    <form action="call.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+        <center>
+            <h2>Сделать заказ</h2>
+        </center>
+        <input type='hidden' name='artikul'>
+        <div>
+            <label>Ваше имя</label>
+            <input type="text" name="name" placeholder="Введите Ф.И.О" required="">
+        </div>
+        <div>
+            <label>Ваш телефон</label>
+            <input type="text" name="phone" placeholder="Введите телефон" required="">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Отправить заявку">
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="//static.best-gooods.ru/js/previewYouTube.js"></script>  
+ </body>
+<!-- Copied from https://bestshopby.ru/bobby-bank-m1/ by Cyotek WebCopy 1.4.0.477, 27 мая 2018 г., 13:36:43 -->
+</html>
